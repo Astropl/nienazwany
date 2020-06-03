@@ -1,8 +1,12 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <fstream>
-//#include <QApplication>
+#include <QApplication>
 #include <iostream>
+#include "main2.h"
+#include "ui_main2.h"
+
+
 
 using namespace std;
 fstream plik;
@@ -50,6 +54,16 @@ QString model = ui->lineEdit3->text();
 void MainWindow::on_pushButton_2_clicked()
 {// Drugie okno z lista.
 
+    Main2 okno2;
+    okno2.setModal(true);
+    okno2.exec();
+    //okno2.show();
+
+    //QMainWindow okno2 = new QMainWindow();
+    //okno2->show();
+
+
+    //return .exec();
 //    Main2 drugieOkno = new Main2 ();
 //    Main2 * drugieOkno = new Main2();
 //    drugieOkno ->show();
