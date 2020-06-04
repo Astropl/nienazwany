@@ -98,16 +98,19 @@ plikOdczyt.open("C:/Qt/Pliki/tekst.txt",ios::in);
        cout<< "Testwoa" <<endl;
 
 
-       string napis = "Ala ma kota";
-       cout<<napis<<" +nspaca"<<endl;
+       
 
        }
        file.close();
 
 
        // Testuje sobie
+       string napis = "Ala ma kota";
+       cout<<napis<<" +nspaca"<<endl;
 
-
+       
+       cout<<"Ddodoaje do columnwiew1"<<endl;
+             
 
 //return 0;
    }

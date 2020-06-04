@@ -36,6 +36,9 @@ QString nrSeryjny1 = ui->lineEdit1->text();
 QString producent = ui->lineEdit2->text();
 QString model = ui->lineEdit3->text();
 
+string napistest="ala ma kota";
+cout<<napistest<<" + dksjdis";
+
     plik.open("C:/Qt/Pliki/tekst.txt",ios::out | ios::app);
 
     std::cout<<nrSeryjny1.toStdString()<<endl;
